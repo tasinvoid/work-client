@@ -74,7 +74,7 @@ const DashBoardLayout = () => {
 
           <li>
             <NavLink
-              to="/"
+              to="/dashBoard/profile"
               className={({ isActive }) =>
                 isActive
                   ? "flex items-center gap-2 text-indigo-400 font-semibold bg-gray-700 rounded-lg py-2 px-3 transition-colors duration-200"
@@ -82,7 +82,7 @@ const DashBoardLayout = () => {
               }
             >
               <FaHome className="text-gray-400 group-hover:text-indigo-400" />
-              Home
+              Profile
             </NavLink>
           </li>
           <li>

@@ -13,6 +13,7 @@ import Login from "../All-Page/Authintications/Login";
 import Register from "../All-Page/Authintications/Register";
 import DashBoardLayout from "../layouts/DashBoardLayout";
 import AddCourse from "../DashBoardPages/AddCourse";
+import UserProfileAndAgreement from "../DashBoardPages/Profile/UserProfileAndAgreement";
 
 const Router = createBrowserRouter([
   {
@@ -101,6 +102,10 @@ const Router = createBrowserRouter([
       {
         path: "/dashBoard/addCourse",
         Component: AddCourse,
+      },
+      {
+        path: "/dashBoard/profile",
+        Component: UserProfileAndAgreement,
       },
     ],
   },
